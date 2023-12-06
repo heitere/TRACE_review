@@ -1,0 +1,16 @@
+# tested with python 3.11.5
+# install e.g. with 
+# mamba env create --prefix ./backend_env -f fastapi_requirements.yml
+
+dependencies:
+  - openssl
+  - fastapi
+  - uvicorn
+  - numpy
+  - pandas
+  - scanpy
+  - python-annoy
+  - matplotlib
+  - pip:
+    - glasbey
+    - opentsne
